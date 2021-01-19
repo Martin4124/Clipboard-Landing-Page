@@ -1,6 +1,6 @@
 main {
   text-align: center;
-  margin: 6em auto 0em auto;
+  margin: 7em auto 0em auto;
   padding: 0rem 1.8rem;
   max-width: 600px;
   h2,
@@ -123,18 +123,20 @@ main {
       padding: 8em 0em;
       .img {
         height: 100%;
+        width: 115%;
         max-width: none;
         padding: 0em;
-        transform: translateX(-15%);
+        transform: translateX(-13%);
       }
       div {
         display: flex;
         flex-direction: column;
         justify-content: center;
         text-align: left;
+        padding-left: 7rem;
         p {
           font-size: 1em;
-          max-width: 400px;
+          max-width: 350px;
         }
       }
     }

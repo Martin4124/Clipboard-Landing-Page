@@ -69,7 +69,7 @@ header .background img {
 
 @media only screen and (min-width: 900px) {
   header h1 {
-    font-size: 2.5em;
+    font-size: 3em;
   }
   header p {
     font-size: 1.1em;
@@ -84,7 +84,7 @@ header .background img {
 
 main {
   text-align: center;
-  margin: 6em auto 0em auto;
+  margin: 7em auto 0em auto;
   padding: 0rem 1.8rem;
   max-width: 600px;
 }
@@ -220,19 +220,21 @@ main .logos .center {
   }
   main .Features .img {
     height: 100%;
+    width: 115%;
     max-width: none;
     padding: 0em;
-    transform: translateX(-15%);
+    transform: translateX(-13%);
   }
   main .Features div {
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: left;
+    padding-left: 7rem;
   }
   main .Features div p {
     font-size: 1em;
-    max-width: 400px;
+    max-width: 350px;
   }
   main .grid-icons {
     grid-template-columns: repeat(3, 1fr);
